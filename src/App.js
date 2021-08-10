@@ -12,8 +12,8 @@ import Staff from './components/NavBar/Staff/Staff';
 
 const App = () => {
   return (
-    
     <div className = "app-wrapper">
+      <div>Test25</div>
       <Header />
     <div className = "app-wrapper-content">
       <Route path="/Receptions"
