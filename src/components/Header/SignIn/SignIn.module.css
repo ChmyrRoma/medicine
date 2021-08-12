@@ -25,6 +25,11 @@
 
 .bodySignIn {
     margin-top: 3%;
+    align-items: center;
+}
+
+.bodyButton {
+    align-items: center;
 }
 
 .bodyInput input {
