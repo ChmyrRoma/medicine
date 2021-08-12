@@ -13,7 +13,7 @@ import staffImg from '../assets/images/staff.svg';
 const NavBar = () => {
     return (
         <div className={style.NavBar}>
-            <Grid container   className={style.first}>
+            <Grid container  className={style.first}>
             <Grid className={`${style.item} ${style.active} ${style.section}`}>
                 <NavLink activeClassName={style.activeLink} to = '/receptions'>
                     <img alt='' src={receptionsImg} />
@@ -52,7 +52,7 @@ const NavBar = () => {
                    <span className={style.sectionTitle}>Staff</span> 
                 </NavLink>
             </Grid>
-            </Grid>
+        </Grid>
         </div>
     )
 }

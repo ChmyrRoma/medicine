@@ -13,34 +13,6 @@ import Staff from './components/NavBar/Staff/Staff';
 
 const App = () => {
   return (
-    <div className = "app-wrapper">
-      <Header />
-    <div className = "app-wrapper-content">
-      <Route path="/Receptions"
-        render={() => <Receptions />} 
-      />
-      <Route path="/Developments"
-        render={() => <Developments />} 
-      />
-      <Route path="/Alerts"
-        render={() => <Alerts />} 
-      />
-      <Route path="/Messages"
-        render={() => <Messages />} 
-      />
-      <Route path="/Clients"
-        render={() => <Clients />} 
-      />
-      <Route path="/Staff"
-        render={() => <Staff />} 
-      />
-      <Route path="/SignIn" 
-        render={() => <SignIn />}
-      />
-      <Route path="/SignUp" 
-        render={() => <SignUp />}
-      />
-  
     <div className='app-wrapper'>
       <Header />
       <NavBar />
