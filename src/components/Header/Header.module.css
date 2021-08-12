@@ -1,3 +1,20 @@
 .header {
-    background-color: blue;
+    display: grid;
+    background-color: #039be5;
+    height: 70px;
+    align-items: center !important;
+}
+
+.headerBody {
+    display: flex; 
+    align-items: center !important;  
+}
+
+.headerTitle {
+    font-size: 24px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 150px;
 }
