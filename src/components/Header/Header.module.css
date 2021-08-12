@@ -1,5 +1,5 @@
 .header {
-    display: flex;
+    display: grid;
     background-color: #039be5;
     height: 70px;
     align-items: center !important;

@@ -1,14 +1,14 @@
-import { Grid } from '@material-ui/core';
 import React from 'react';
+import { Grid } from '@material-ui/core';
 import style from '../Header/Header.module.css';
-import homeImg from '../assets/images/house.svg'
+import homeImg from '../assets/images/house.svg';
 
 const Header = () => {
     return (
-        <Grid container xs={12}  className={style.header}>
-            <Grid xs={12} sm={6} className={style.headerBody}>
+        <Grid className={style.header}>
+            <Grid className={style.headerBody}>
                 <div className={style.logo}>
-                    <img alt="" src={homeImg} />
+                    <img alt='' src={homeImg} />
                     <div className={style.headerTitle}>Home</div>
                 </div>
             </Grid>
