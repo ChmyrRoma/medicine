@@ -12,7 +12,6 @@ import Staff from './components/NavBar/Staff/Staff';
 
 const App = () => {
   return (
-    
     <div className = "app-wrapper">
       <Header />
     <div className = "app-wrapper-content">
@@ -20,7 +19,7 @@ const App = () => {
         render={() => <Receptions />} 
       />
       <Route path="/Developments"
-          render={() => <Developments />} 
+        render={() => <Developments />} 
       />
       <Route path="/Alerts"
         render={() => <Alerts />} 

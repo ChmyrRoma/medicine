@@ -30,7 +30,7 @@
 .bodyInput input {
     margin: 0.5% 0;
     height: 33px;
-    width: 20%;
+    min-width: 25%;
     outline: none;
     border-radius: 5px;
     border-color: silver;
@@ -44,4 +44,8 @@
     border-radius: 5px;
     border-color: #00AFDD;
     color: white;
+}
+
+.bodyButton:active {
+    background-color: #039be5;
 }
