@@ -15,7 +15,7 @@ const Header = () => {
                         <div className={style.headerTitle}>Home</div>
                     </NavLink>
                 </Grid>
-                <Grid item xs={6} sm={6} xl={12} className={style.bodyAuth}>
+                <Grid container direction='row' alignItems='center' item xs={6} sm={6} xl={12} className={style.bodyAuth}>
                     <NavLink to='/signIn' className={style.bodyButton}>Sign In</NavLink>
                     <NavLink to='/signUp' className={style.bodyButton}>SignUp</NavLink>
                 </Grid>

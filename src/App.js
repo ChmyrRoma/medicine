@@ -1,5 +1,5 @@
 import { Route } from 'react-router';
-import { BrowserRouter, NavLink } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import SignIn from './components/Header/SignIn/SignIn';
