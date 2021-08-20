@@ -5,11 +5,14 @@
     height: 80px;
     align-items: center !important;
     width: 100%;
-    
 }
 
 .headerBody {
     display: flex !important;
+}
+
+.leftBlock {
+    justify-content: center;
 }
 
 .headerTitle {

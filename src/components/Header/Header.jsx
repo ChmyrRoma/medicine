@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Grid container className={style.header}>
+        <Grid container xs-12 className={style.header}>
             <Grid item xs={12} sm={12} xl={12} className={style.headerBody}>
                 <Grid container item xs={12} sm={12} xl={12} className={style.leftBlock}>
                     <NavLink to='/' className={style.logo}>
@@ -20,7 +20,7 @@ const Header = () => {
                     <NavLink to='/signUp' className={style.bodyButton}>SignUp</NavLink>
                 </Grid>
             </Grid>
-        </div>
+        </Grid>
     )
 }
 
