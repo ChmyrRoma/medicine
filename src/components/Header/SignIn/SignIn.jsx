@@ -8,7 +8,7 @@ const SignIn = () => {
         <div>
             <Grid className={style.headerSingIn}>
                 <h1>Empire of health</h1>
-                <img src={doctor} />
+                <img alt='' src={doctor} />
             </Grid>
             <Grid container direction='column' alightItems='center' className={style.bodySignIn}>
                 <Grid container direction='column' alignItems='center' className={style.bodyInput}>

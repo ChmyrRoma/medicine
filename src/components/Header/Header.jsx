@@ -20,7 +20,7 @@ const Header = () => {
                     <NavLink to='/signUp' className={style.bodyButton}>SignUp</NavLink>
                 </Grid>
             </Grid>
-        </Grid>
+        </div>
     )
 }
 
