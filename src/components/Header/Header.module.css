@@ -3,8 +3,6 @@
     color: white;
     background-color: #039BE5;
     height: 80px;
-    flex-direction: row;
-    justify-content: center;
     align-items: center !important;
     width: 100%;
     
@@ -12,20 +10,21 @@
 
 .headerBody {
     display: flex !important;
-    width: 100%;
-    max-width: 800px;
-    min-width: 500px;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .headerTitle {
     font-size: 24px;
+    color: white;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+
+.headerTitle:active {
+    color: black;
 }
 
 .logo img {
@@ -36,20 +35,32 @@
 
 /* SignIn Button */
 
-.bodyAuth {
-    display: flex !important;
-    flex: 1 1 !important;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: center;
+.bodyButton { 
+    width: 80px;
+    color: white;
+    zoom: 1.2;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
 }
 
-.bodyButton { 
-    height: 30px;
-    width: 80px;
-    background-color: #039be5;
-    border-radius: 5px;
-    align-items: center;
-    border-color: #00AFDD;
-    color: white;
+.bodyButton:active {
+    color: black;
+}
+
+.bodyButton:after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.bodyButton:hover:after,
+.bodyButton:focus:after {
+    width: 62%;
 }

@@ -10,8 +10,8 @@ const SignIn = () => {
                 <h1>Empire of health</h1>
                 <img alt='' src={doctor} />
             </Grid>
-            <Grid container direction='column' className={style.bodySignIn}>
-                <Grid container direction='column' className={style.bodyInput}>
+            <Grid container direction='column' alightItems='center' className={style.bodySignIn}>
+                <Grid container direction='column' alignItems='center' className={style.bodyInput}>
                     <input placeholder='Login' />
                     <input placeholder='Password' />
                 </Grid>
