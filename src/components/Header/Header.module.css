@@ -1,13 +1,22 @@
 .header {
-    display: grid;
-    background-color: #039be5;
-    height: 70px;
+    display: flex;
+    color: white;
+    background-color: #039BE5;
+    height: 80px;
+    flex-direction: row;
+    justify-content: center;
     align-items: center !important;
+    width: 100%;
+    
 }
 
 .headerBody {
-    display: flex; 
-    align-items: center !important;  
+    display: flex !important;
+    width: 100%;
+    max-width: 800px;
+    min-width: 500px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .headerTitle {
@@ -16,5 +25,31 @@
 
 .logo {
     display: flex;
-    margin-left: 150px;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* SignIn Button */
+
+.bodyAuth {
+    display: flex !important;
+    flex: 1 1 !important;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bodyButton { 
+    height: 30px;
+    width: 80px;
+    background-color: #039be5;
+    border-radius: 5px;
+    align-items: center;
+    border-color: #00AFDD;
+    color: white;
 }

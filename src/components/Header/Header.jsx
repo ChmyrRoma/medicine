@@ -5,14 +5,17 @@ import homeImg from '../assets/images/house.svg';
 
 const Header = () => {
     return (
-        <Grid className={style.header}>
-            <Grid className={style.headerBody}>
-                <div className={style.logo}>
+        <div className={style.header}>
+            <Grid container  className={style.headerBody}>
+                <Grid item className={style.logo}>
                     <img alt='' src={homeImg} />
                     <div className={style.headerTitle}>Home</div>
-                </div>
+                </Grid>
+                <Grid item className={style.bodyAuth}>
+                    <button className={style.bodyButton}>Sign In</button>
+                </Grid>
             </Grid>
-        </Grid>
+        </div>
     )
 }
 

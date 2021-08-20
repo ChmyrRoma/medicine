@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* headerSingIn */
+
+.headerSignUp {
+    background-color: #00AFDD;
+    text-align: center;
+}
+
+.headerSignUp h1 {
+    zoom: 1.3;
+    color: white;
+    padding-top: 2%;
+}
+
+.headerSignUp img {
+    width: 14%;
+    margin: 3% 0 3% 0;
+}
+
+/* bodySignUp */
+
+.bodySignUp {
+    margin-top: 3%;
+    align-items: center;
+}
+
+.bodyConfirm {
+    display: flex;
+    align-items: center;
+}
+
+.bodyInput input {
+    margin: 0.5% 0;
+    height: 33px;
+    min-width: 25%;
+    outline: none;
+    border-radius: 5px;
+    border-color: silver;
+}
+
+.bodyConfirm button {
+    margin: 10% 0;
+    height: 35px;
+    width: 130px;
+    background-color: #00AFDD;
+    border-radius: 5px;
+    border-color: #00AFDD;
+    color: white;
+}
+
+.bodyConfirm button:active {
+    background-color: #039be5;
+}
+
+.titleSignUp {
+    margin: 10px;
+}
+
+.titleSignUp a {
+    color: #039be5;
+    text-decoration: none;
+}
+
+.checkAccept {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.checkAccept input {
+    width: 20px;
+    height: 20px;
+    margin: 10px
+}
+
+.checkedInput {
+    display: flex;
+    align-items: center;
+}
