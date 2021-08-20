@@ -1,20 +1,68 @@
 .header {
-    display: grid;
-    background-color: #039be5;
-    height: 70px;
+    display: flex;
+    color: white;
+    background-color: #039BE5;
+    height: 80px;
     align-items: center !important;
 }
 
 .headerBody {
-    display: flex; 
-    align-items: center !important;  
+    display: flex !important;
+}
+
+.leftBlock {
+    justify-content: center;
 }
 
 .headerTitle {
     font-size: 24px;
+    color: white;
 }
 
 .logo {
     display: flex;
-    margin-left: 150px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.headerTitle:active {
+    color: black;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* SignIn Button */
+
+.bodyButton { 
+    width: 80px;
+    color: white;
+    zoom: 1.2;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.bodyButton:active {
+    color: black;
+}
+
+.bodyButton:after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.bodyButton:hover:after,
+.bodyButton:focus:after {
+    width: 62%;
 }

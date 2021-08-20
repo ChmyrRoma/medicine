@@ -1,4 +1,5 @@
 import { Route } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import SignIn from './components/Header/SignIn/SignIn';
@@ -13,9 +14,12 @@ import Staff from './components/NavBar/Staff/Staff';
 
 const App = () => {
   return (
+    <BrowserRouter>
     <div className='app-wrapper'>
       <Header />
-      <NavBar />
+      <Route exact path='/' 
+        render={() => <NavBar />}
+      />
       <div className='app-wrapper-content'>
         <Route path='/receptions'
           render={() => <Receptions />}
@@ -35,7 +39,7 @@ const App = () => {
         <Route path='/staff'
           render={() => <Staff />}
         />
-        <Route path='/signIn'
+        <Route exact path='/signIn'
           render={() => <SignIn />}
         />
         <Route path='/signUp'
@@ -43,6 +47,7 @@ const App = () => {
         />
       </div>
     </div>
+    </BrowserRouter>
   )
 }
 
